@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
     <div class="container">
@@ -7,7 +7,7 @@
                 @include('layouts/_flash')
                 <div class="card">
                     <div class="card-header">
-                        Data Mahasiswa
+                        Data Peminjaman Ruangan Diskusi
                         <a href="{{ route('peminjaman2.create') }}" class="btn btn-sm btn-primary" style="float: right">
                             Tambah Data
                         </a>

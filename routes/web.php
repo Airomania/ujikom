@@ -45,3 +45,13 @@ Route::get('multimedia', function () {
 Route::get('diskusi', function () {
     return view('layouts.user.diskusi');
 });
+
+Route::group(['prefix' => 'admi.n', 'middleware' => ['auth','isAdmin']], function () {
+    Route::get('profile', function (){
+        return view('proflie');
+    });
+});
+
+Route::get('/errors', function (){
+    returnview('403');
+});

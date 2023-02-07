@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
     <div class="container">
@@ -33,9 +33,18 @@
                                 @enderror
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Fakultas</label>
-                                <input type="text" class="form-control  @error('fakultas') is-invalid @enderror"
-                                    name="fakultas">
+                            <label class="form-label">fakultas</label>
+                                <select class="form-control  @error('fakultas') is-invalid @enderror"name="fakultas">
+                                <option selected>pilih salah satu</option>
+                                <option value="Ushuluddin">Ushuluddin</option>
+                                <option value="Tarbiyah dan Keguruan">Tarbiyah dan Keguruan.</option>
+                                <option value="Syariah dan Hukum">Syariah dan Hukum</option>
+                                <option value="Dakwah dan Komunikasi">Dakwah dan Komunikasi.</option>
+                                <option value="Adab dan Humaniora">Adab dan Humaniora</option>
+                                <option value="Psikologi">Psikologi</option>
+                                <option value="Sains dan Teknologi">Sains dan Teknologi</option>
+                                <option value="Ilmu Sosial dan Ilmu Politik">Ilmu Sosial dan Ilmu Politik</option>
+                                </select>
                                 @error('fakultas')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -44,8 +53,36 @@
                             </div>
                             <div class="mb-3">
                             <label class="form-label">Jurusan</label>
-                                <input type="text" class="form-control  @error('jurusan') is-invalid @enderror"
-                                    name="jurusan">
+                                <select class="form-control  @error('jurusan') is-invalid @enderror"name="jurusan">
+                                <option selected>pilih salah satu</option>
+                                <option value="Ilmu Hukum">Ilmu Hukum</option>
+                                <option value="Ilmu Agama Islam">Ilmu Agama Islam</option>
+                                <option value="Pendidikan Bahasa Inggris">Pendidikan Bahasa Inggris</option>
+                                <option value="Pendidikan Matematika">Pendidikan Matematika</option>
+                                <option value="Pendidikan Guru Sekolah Dasar">Pendidikan Guru Sekolah Dasar</option>
+                                <option value="Keguruan & Pendidikan">Keguruan & Pendidikan</option>
+                                <option value="Manajemen Pendidikan">Manajemen Pendidikan</option>
+                                <option value="Fisika">Fisika</option>
+                                <option value="Kimia">Kimia</option>
+                                <option value="Biologi">Biologi</option>
+                                <option value="Sastra Arab">Sastra Arab</option>
+                                <option value="Sastra Inggris">Sastra Inggris</option>
+                                <option value="Sejarah">Sejarah</option>
+                                <option value="Psikologi">Psikologi</option>
+                                <option value="Matematika">Matematika</option>
+                                <option value="Teknik Elektro">Teknik Elektro</option>
+                                <option value="Teknik Informatika">Teknik Informatika</option>
+                                <option value="Agroteknologi">Agroteknologi</option>
+                                <option value="Sosiologi">Sosiologi</option>
+                                <option value="Ilmu Politik">Ilmu Politik</option>
+                                <option value="Administrasi Negara (Publik)">Administrasi Negara (Publik)</option>
+                                <option value="Filsafat">Filsafat</option>
+                                <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+                                <option value="Manajemen">Manajemen</option>
+                                <option value="Akuntansi">Akuntansi</option>
+                                <option value="Ekonomi Syariah">Ekonomi Syariah</option>
+                                <option value="Manajemen Keuangan">Manajemen Keuangan</option>
+                                </select>
                                 @error('jurusan')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>

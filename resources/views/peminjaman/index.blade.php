@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
 
@@ -27,6 +27,7 @@
                                         <th>No Hp</th>
                                         <th>Waktu</th>
                                         <th>No Pc</th>
+                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>

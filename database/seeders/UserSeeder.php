@@ -20,5 +20,14 @@ class UserSeeder extends Seeder
         $admin->email = "admin@gmail.com";
         $admin->password = bcrypt("rahasia");
         $admin->save();
+        
+        $guest = new \App\Models\User();
+        $guest->name ="guest Project";
+        $guest->email = "guest@gmail.com";
+        $guest->password = bcrypt("12345678");
+        $guest->save();
+        
+        
+    
     }
 }

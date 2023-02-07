@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>peminjaman ruangan di gedung perpustakaan</title>  
+    <title>Perpustakaan</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -60,9 +60,9 @@
                         <!-- <li><a class="nav-link" href="#about">About Us</a></li> -->
                         <li><a class="nav-link" href="#story">Cara Meminjam</a></li> 
                         <!-- <li><a class="nav-link" href="#family">Family</a></li> -->
-                        <li><a class="nav-link" href="#gallery">Galeri</a></li>
+                        <!-- <li><a class="nav-link" href="#gallery">Galeri</a></li> -->
                         <li><a class="nav-link" href="#events">Peminjaman</a></li>
-						<li><a class="nav-link" href="#contact">Kontak</a></li>
+						<!-- <li><a class="nav-link" href="#contact">Kontak</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -80,7 +80,6 @@
 							<div class="lbox-details">
 							    <h2>PERPUSTAKAAN</h2>
 								<h2>UIN SUNAN GUNUNG DJATI BANDUNG</h2>
-								<h2>Peminjaman Ruangan Multimedia & Ruangan Diskusi</h3>
 								<p>Website by Ai Romania smk assalaam bandung</p>
 								<!-- <a href="#" class="btn ">Contact</a> -->
 							</div>
@@ -177,9 +176,9 @@
 				<span class="iconBackground"></span>
 				<div class="col-xs-12 col-md-6 align-left">
 					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">ONE</h4>
+						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Klik Peminjaman Jika Akan Meminjam Ruangan</h4>
 						<p class="mbr-timeline-text mbr-fonts-style display-7">
-						Klik Peminjaman Jika Akan Meminjam Ruangan
+						
 						</p>
 					 </div>
 				</div>
@@ -195,9 +194,9 @@
 				<span class="iconBackground"></span>
 				<div class="col-xs-12 col-md-6 align-right">
 					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">TWO</h4>
+						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Pilih Ruangan Yang Akan Di Pinjam</h4>
 						<p class="mbr-timeline-text mbr-fonts-style display-7">
-						Pilih Ruangan Yang Akan Di Pinjam
+						
 						</p>
 					 </div>
 				</div>
@@ -213,9 +212,9 @@
 				<span class="iconBackground"></span>
 				<div class="col-xs-12 col-md-6 align-left">
 					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">THREE</h4>
+						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Klik Meminjam Dan Langsung Isi Form Yang Sudah Ada Di Sana </h4>
 						<p class="mbr-timeline-text mbr-fonts-style display-7">
-						Klik Meminjam Dan Langsung Isi Form Yang Sudah Ada Di Sana 
+						
 						</p>
 					 </div>
 				</div>
@@ -231,9 +230,9 @@
 				<span class="iconBackground"></span>
 				<div class="col-xs-12 col-md-6 align-right">
 					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">FOUR</h4>
+						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Setelah Mengisi Lalu Tanyakan Ke Petugas Apakah Sudah Ada Data Dia Masuk Apa BelumR</h4>
 						<p class="mbr-timeline-text mbr-fonts-style display-7">
-						   Setelah Mengisi Lalu Tanyakan Ke Petugas Apakah Sudah Ada Data Dia Masuk Apa Belum
+						   
 						</p>
 					 </div>
 				</div>
@@ -327,7 +326,7 @@
 	<!-- End Family -->
 	
 	<!-- Start Gallery -->
-	<div id="gallery" class="gallery-box">
+	<!-- <div id="gallery" class="gallery-box">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12">
@@ -351,12 +350,12 @@
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
-					<!-- <li>
+					 <li>
 						<a href="images/gallery-03.jpg">
 							<img class="img-fluid" src="{{asset('asset_admin/images/gallery-03.jpg')}}" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
-					</li> -->
+					</li> 
 					<li>
 						<a href="images/gallery-04.jpg">
 							<img class="img-fluid" src="{{asset('asset_admin/images/gallery-04.jpg')}}" alt="single image">
@@ -369,7 +368,7 @@
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
-					<!-- <li>
+					<li>
 						<a href="images/gallery-06.jpg">
 							<img class="img-fluid" src="{{asset('asset_admin/images/gallery-06.jpg')}}" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
@@ -386,11 +385,11 @@
 							<img class="img-fluid" src="{{asset('asset_admin/images/gallery-08.jpg')}}" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
-					</li> -->
+					</li>
 				</ul>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- End Gallery -->
 	
 	<!-- Start Events -->
@@ -441,7 +440,7 @@
 	<!-- End Events -->
 	
 	<!-- Start Contact -->
-	<div id="contact" class="contact-box">
+	<!-- <div id="contact" class="contact-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -468,7 +467,7 @@
 								<div class="help-block with-errors"></div>
 							</div> 
 						</div>
-						<!-- <div class="col-md-12">
+						<div class="col-md-12">
 							<div class="form-group">
 								<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
 								  <option disabled selected>Number Of Guest*</option>
@@ -480,8 +479,8 @@
 								</select>
 								<div class="help-block with-errors"></div>
 							</div> 
-						</div> -->
-						<!-- <div class="col-md-12">
+						</div> 
+						<div class="col-md-12">
 							<div class="form-group">
 								<select class="custom-select d-block form-control" id="event" required data-error="Please select an item in the list.">
 								  <option disabled selected>I Am Attending*</option>
@@ -491,7 +490,7 @@
 								</select>
 								<div class="help-block with-errors"></div>
 							</div> 
-						</div> -->
+						</div> 
 						<div class="col-md-12">
 							<div class="form-group"> 
 								<textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
@@ -509,7 +508,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- End Contact -->
 	
 	<!-- Start Footer -->

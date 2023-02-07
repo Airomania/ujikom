@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
     <div class="container">
@@ -33,7 +33,7 @@
                                 @enderror
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Nim Mahasiswa</label>
+                                <label class="form-label">Nomor Induk Mahasiswa</label>
                                 <input type="text" class="form-control  @error('nim') is-invalid @enderror"
                                     name="nim">
                                 @error('nim')
