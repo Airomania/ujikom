@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Registration Page</title>
+  <title>Admin Perpustakaan registration</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -14,10 +14,10 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('asset_admin/dist/css/adminlte.min.css')}}">
 </head>
-<body class="hold-transition register-page">
+<body class="hold-transition register-page" style="background-image:url(https://statik.tempo.co/data/2020/06/11/id_944597/944597_720.jpg)">
 <div class="register-box">
   <div class="register-logo">
-    <a href="{{url('/admin')}}"><b>Admin</b>LTE</a>
+    <a href="{{url('/admin')}}"><h1>Admin Perpustakaan</h1></a>
   </div>
 
   <div class="card">
@@ -90,7 +90,7 @@
         </div>
       </form>
 
-      <div class="social-auth-links text-center">
+      <!-- <div class="social-auth-links text-center">
         <p>- OR -</p>
         <a href="#" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i>
@@ -100,9 +100,9 @@
           <i class="fab fa-google-plus mr-2"></i>
           Sign up using Google+
         </a>
-      </div>
+      </div> -->
 
-      <a href="login.html" class="text-center">I already have a membership</a>
+      <a href="login" class="text-center">I already have a membership</a>
     </div>
     <!-- /.form-box -->
   </div><!-- /.card -->

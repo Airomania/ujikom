@@ -46,7 +46,7 @@ Route::get('diskusi', function () {
     return view('layouts.user.diskusi');
 });
 
-Route::group(['prefix' => 'admi.n', 'middleware' => ['auth','isAdmin']], function () {
+Route::group(['prefix' => 'admin', 'middleware' => ['auth','isAdmin']], function () {
     Route::get('profile', function (){
         return view('proflie');
     });

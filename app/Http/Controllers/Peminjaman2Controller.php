@@ -62,8 +62,8 @@ class Peminjaman2Controller extends Controller
         $peminjaman2->waktu_mulai = $request->waktu_mulai;
         $peminjaman2->waktu_selesai = $request->waktu_selesai;
         $peminjaman2->save();
-        return redirect()->route('peminjaman2.index')
-            ->with('success', 'Data berhasil dibuat!');
+        return back()
+            ->with('success', 'Data berhasil disimpan!');
     }
 
     /**

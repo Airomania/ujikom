@@ -37,11 +37,7 @@
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
 	<!-- LOADER -->
-    <div id="preloader">
-		<div class="preloader pulse">
-			<i class="fa fa-heartbeat" aria-hidden="true"></i>
-		</div>
-    </div><!-- end loader -->
+   
     <!-- END LOADER -->
 
     <br>
@@ -69,7 +65,7 @@
                                 @enderror
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Nama</label>
+                                <label class="form-label">Nama penanggung jawab Ruangan</label>
                                 <input type="text" class="form-control  @error('nama') is-invalid @enderror"
                                     name="nama">
                                 @error('nama')
